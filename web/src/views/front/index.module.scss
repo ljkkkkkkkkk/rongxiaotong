@@ -1,0 +1,122 @@
+.root {
+    width: 960px;
+    margin: 0 auto;
+    :global {
+        .head {
+            background-color: white;
+            padding: 10px;
+            .ant-input-wrapper {
+                width: 20vw;
+                .ant-btn {
+                    background-color: rgb(100, 150, 100);
+                }
+            }
+        }
+        .list {
+            .item {
+                width: 960px;
+                height: 120px;
+                background-color: white;
+                margin-bottom: 2px;
+                position: relative;
+                img {
+                    position: absolute;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    width: 150px;
+                    height: 100px;
+                }
+                div {
+                    margin-left: 180px;
+                    .title {
+                        position: absolute;
+                        margin-top: 10px;
+                        font-size: 15px;
+                        &:hover {
+                            color: rgb(27, 134, 206);
+                            cursor: pointer;
+                        }
+                    }
+                    .price {
+                        position: absolute;
+                        font-size: 15px;
+                        color: rgb(230, 29, 29);
+                        font-weight: bold;
+                        margin-top: 40px;
+                    }
+                    .date {
+                        font-size: 10px;
+                        color: rgb(150, 150, 150);
+                        position: absolute;
+                        margin-top: 70px;
+                    }
+                }
+            }
+        }
+        .footer {
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.mobile {
+    margin: 0 auto;
+    margin-top: 5px;
+    :global {
+        .head {
+            background-color: white;
+            padding: 10px;
+            .ant-input-wrapper {
+                margin: 0 auto;
+                width: 80vw;
+                .ant-btn {
+                    background-color: rgb(100, 150, 100);
+                }
+            }
+        }
+        .list {
+            width: 100vw;
+            .item {
+                height: 120px;
+                background-color: white;
+                margin-bottom: 2px;
+                position: relative;
+                img {
+                    position: absolute;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    width: 150px;
+                    height: 100px;
+                }
+                div {
+                    margin-left: 180px;
+                    .title {
+                        position: absolute;
+                        margin-top: 10px;
+                        font-size: 15px;
+                        &:hover {
+                            color: rgb(27, 134, 206);
+                            cursor: pointer;
+                        }
+                    }
+                    .price {
+                        position: absolute;
+                        font-size: 15px;
+                        color: rgb(230, 29, 29);
+                        font-weight: bold;
+                        margin-top: 40px;
+                    }
+                    .date {
+                        font-size: 10px;
+                        color: rgb(150, 150, 150);
+                        position: absolute;
+                        margin-top: 70px;
+                    }
+                }
+            }
+        }
+    }
+}

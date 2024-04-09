@@ -1,0 +1,41 @@
+.root {
+    margin: 0 auto;
+    width: 960px;
+    background-color: white;
+    padding: 10px 10px 200px 10px;
+    :global{
+    .knowledge-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; // 控制每排两个 div 之间的间距
+      
+        .knowledge-item {
+          flex: 1;
+          min-width: 45%; // 控制每个 div 的最小宽度
+          padding: 16px;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+      
+          h2 {
+            font-size: 18px;
+            margin-bottom: 8px;
+            &:hover {
+                color: #1c5acd;
+                cursor: pointer;
+            }
+          }
+          
+          p {
+            font-size: 14px;
+            color: #333;
+          }
+        }
+      }
+      .footer {
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+}

@@ -1,0 +1,17 @@
+.root {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    :global {
+        .nav {
+            width: 200px;
+            background-color: white;
+        }
+        .body {
+            width: 760px;
+            background-color: white;
+        }
+    }
+}

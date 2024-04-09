@@ -1,0 +1,31 @@
+server:
+  port: 9090
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rongxiaotong?serverTimezone=GMT%2B8&useUnicode=true&characterEncodeing=UTF-8&useSSL=false
+    username: root
+    password:
+  application:
+    name: haha
+  resources:
+    static-locations: file:d:/t/file/order,file:d:/t/file/avatar,file:d:/t/file/video
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+  jackson:
+    time-zone: GMT+8
+  mvc:
+    static-path-pattern: /file/**
+application:
+    upload-path: d:/t/file
+
+file:
+  location:
+    directory: /usr/local/learn/docker/nginx/html/

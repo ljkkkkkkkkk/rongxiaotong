@@ -1,0 +1,25 @@
+.root {
+    margin: auto;
+    :global {
+        .title {
+            font-size: 20px;
+            margin: 20px;
+        }
+        .line {
+            width: 700px;
+        }
+        button {
+            margin-left: 20px;
+        }
+        .addr {
+            margin: 20px;
+            padding: 10px;
+            display: flex;
+            height: 100px;
+            border: 1px dashed rgb(184, 184, 184);
+            border-radius: 10px;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+    }
+}

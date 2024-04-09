@@ -1,0 +1,104 @@
+.root {
+    margin: 0 auto;
+    background-color: white;
+    width: 960px;
+    height: 100vh;
+    :global {
+        img {
+            width: 400px;
+            height: 300px;
+            position: absolute;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .content {
+            position: absolute;
+            border: 1px solid rgb(236, 236, 236);
+            border-radius: 5px;
+            width: 500px;
+            height: 300px;
+            margin-top: 10px;
+            margin-left: 430px;
+            display: flex;
+            flex-direction: column;
+            .title {
+                font-size: 25px;
+                font-weight: bold;
+                margin: 10px;
+            }
+            .comment {
+                border: 1px solid rgb(241, 241, 241);
+                border-radius: 5px;
+                height: 100px;
+                padding: 5px;
+                margin: 10px;
+            }
+            .price {
+                font-size: 25px;
+                font-weight: bold;
+                margin: 10px;
+                color: rgb(221, 28, 60);
+            }
+            .time {
+                font-size: 10px;
+                margin-left: 20px;
+                color: rgb(161, 161, 161);
+            }
+            .bu {
+                margin: 20px;
+            }
+        }
+    }
+
+}
+.mobile {
+    margin: 0 auto;
+    background-color: white;
+    width: 100vw;
+    :global {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 90vw;
+            height: 70vw;
+            margin-top: 10px;
+        }
+        .content {
+            width: 95vw;
+            margin: auto;
+            border: 1px solid rgb(236, 236, 236);
+            border-radius: 5px;
+            height: 300px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            .title {
+                font-size: 25px;
+                font-weight: bold;
+                margin: 10px;
+            }
+            .comment {
+                border: 1px solid rgb(241, 241, 241);
+                border-radius: 5px;
+                height: 100px;
+                padding: 5px;
+                margin: 10px;
+            }
+            .price {
+                font-size: 25px;
+                font-weight: bold;
+                margin: 10px;
+                color: rgb(221, 28, 60);
+            }
+            .time {
+                font-size: 10px;
+                margin-left: 20px;
+                color: rgb(161, 161, 161);
+            }
+            .bu {
+                margin: 20px;
+            }
+        }
+    }
+
+}
